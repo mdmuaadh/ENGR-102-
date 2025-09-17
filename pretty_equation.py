@@ -3,6 +3,9 @@
 # "I have not given or received any unauthorized aid on this assignment."
 #
 # Name: Michael Mendoza
+# Jacob Gil
+# Muaadh Mohideen
+# Xander Tivis
 # Section: ENGR 102
 # Assignment: Team Lab 4 Pretty Equation
 # Date: 14 September 2025
@@ -40,7 +43,7 @@ if B != 0:
 
 # set conditional for c
 if C != 0:
-    sign = '+ ' if C > 0 else '- '
+    sign = '+ ' if C > 0 else '-'
     abs_value = abs(C)
     if terms:
         terms.append(f'{sign}{abs_value}')
@@ -51,5 +54,3 @@ if C != 0:
 equation = ' '.join(terms) + ' = 0'
 
 print(f'The quadratic equation is {equation}')
-
-
