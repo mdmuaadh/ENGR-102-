@@ -1,14 +1,15 @@
 # By submitting this assignment, I agree to the following:
-# "Aggies do not lie, cheat, or steal, or tolerate those who do."
-# "I have not given or received any unauthorized aid on this assignment."
+# "Aggies do not lie, cheat, or steal, or tolerate those who do"
+# "I have not given or received any unauthorized aid on this assignment"
 #
-# Name: Jacob Gil
-# Section: Eng-102-535
-# Assignment: Lab 4- 4.21
-# Date: 09-09-25
-#
-#
-# YOUR CODE HERE
+# Names: 
+# Jacob Gil
+# Michael Mendoza
+# Muaadh Mohideen
+# Xander Tivis
+# Section: ENGR - 102 - 559
+# Assignment: Lab 4-4.21
+# Date: 16-09-2025
 #
 ############ Part A ############
 ainp = input("Enter True or False for a:") #input for variables
@@ -38,9 +39,9 @@ exp5S = (not b)
 # evaluates 2nd expression and its simplified version
 exp6 = (not ((b or not c) and (not a or not c))) or (not (c or not (b and c))) or (a and not c) and (not a or
 (a and b and c) or (a and ((b and not c) or (not b))))
-exp6S = (not b) or (a and not c)
+exp6S = a or (not b and c)
 
-print(f'Complex 1: {exp5}') #this isn't wroking right now
+print(f'Complex 1: {exp5}') 
 print(f'Complex 2: {exp6}')
 print(f'Simple 1: {exp5S}')
 print(f'Simple 2: {exp6S}')
