@@ -39,5 +39,6 @@ findcoins %= 5 # finds the amount of change remaining after removing the amount 
 pennies = findcoins # gives the final amount of pennies
 
 # prints all of the quantities owed
-print(f"\nYou should recieve:\n{quarters} quarter(s)\n{dimes} dime(s)\n{nickels} nickel(s)\n{pennies} pennie(s)")
+print(f"\nYou should recieve a total of {totalchange} in the form of:\n{quarters} quarter(s)\n{dimes} dime(s)\n{nickels} nickel(s)\n{pennies} pennie(s)")
+
 
