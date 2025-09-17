@@ -12,9 +12,9 @@
 # Date: 16-09-2025
 #
 ############ Part A ############
-ainp = input("Enter True or False for a:") #input for variables
-binp = input("Enter True or False for b:")
-cinp = input("Enter True or False for c:")
+ainp = input("Enter True or False for a: ") #input for variables
+binp = input("Enter True or False for b: ")
+cinp = input("Enter True or False for c: ")
 
 a= ainp in ('True', 't', 'T', 'true') # coverts inputs into boolean expressions
 b= binp in ('True', 't', 'T', 'true')
@@ -34,7 +34,7 @@ print(f'Odd number: {exp4}')
 ############ Part D ############
 #First complex expresion and its simplified first
 exp5 = (not (a and not b) or (not c and b)) and (not b) or (not a and b and not c) or (a and not b)
-exp5S = (not b)
+exp5S = (not b) or (not a and not c)
 
 # evaluates 2nd expression and its simplified version
 exp6 = (not ((b or not c) and (not a or not c))) or (not (c or not (b and c))) or (a and not c) and (not a or
