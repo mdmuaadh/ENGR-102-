@@ -1,11 +1,15 @@
 # By submitting this assignment, I agree to the following:
-#   "Aggies do not lie, cheat, or steal, or tolerate those who do."
-#   "I have not given or received any unauthorized aid on this assignment."
+# "Aggies do not lie, cheat, or steal, or tolerate those who do"
+# "I have not given or received any unauthorized aid on this assignment"
 #
-# Name:         Xander Tivis
-# Section:      535
-# Assignment:   Lab #, Assignment #
-# Date:         
+# Names: 
+# Jacob Gil
+# Michael Mendoza
+# Muaadh Mohideen
+# Xander Tivis
+# Section: ENGR - 102 - 559
+# Assignment: Lab 4 Team project planner
+# Date: 16-09-2025        
 
 # This program will find how many an which coins are needed to be given as change    
 
@@ -36,3 +40,4 @@ pennies = findcoins # gives the final amount of pennies
 
 # prints all of the quantities owed
 print(f"\nYou should recieve:\n{quarters} quarter(s)\n{dimes} dime(s)\n{nickels} nickel(s)\n{pennies} pennie(s)")
+
