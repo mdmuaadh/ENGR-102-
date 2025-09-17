@@ -38,7 +38,9 @@ nickels = findcoins // 5 # finds the amount of nickels from remaining change
 findcoins %= 5 # finds the amount of change remaining after removing the amount of nickels
 pennies = findcoins # gives the final amount of pennies
 
+totalchange = round(totalchange,2)
 # prints all of the quantities owed
 print(f"\nYou should recieve a total of {totalchange} in the form of:\n{quarters} quarter(s)\n{dimes} dime(s)\n{nickels} nickel(s)\n{pennies} pennie(s)")
+
 
 
