@@ -1,0 +1,35 @@
+user = input("Enter a,b")
+
+board = [[".",".",".","."],
+        [".",".",".","."],
+        [".",".",".","."]]
+black = True
+
+while user != "stop":
+    nums = user.split(',')
+    nums[0] = int(nums[0])
+    nums[1] = int(nums[1])
+   
+    while board[nums[0]][nums[1]] != ".":
+        user = input("Reenter a,b")
+        nums = user.split(',')
+        nums[0] = int(nums[0])
+        nums[1] = int(nums[1])
+   
+    if black:
+       board[nums[0]][nums[1]] = "O"
+      
+    else:
+        board[nums[0]][nums[1]] = "o"
+        
+    black = black != True 
+   
+    
+    for row in board:
+        for  value in row:
+            print(value, end = "")
+        print()
+            
+    
+    user = input("Enter a,b")
+
