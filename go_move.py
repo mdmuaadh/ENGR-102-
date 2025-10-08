@@ -42,12 +42,14 @@ def print_board():
         print(' '.join(i))
     print()
 
-#sets the 
+#sets the turn at the start of the game
 turn_black = True
 
+#prints the format for the stone placements and prints the board
 print("Type coordinates like 'row col' (for example: 3 5) or type 'stop' to end.")
 print_board()
 
+#
 while True:
     if turn_black:
         stone = 'O'
@@ -55,32 +57,25 @@ while True:
     else:
         stone = 'o'
         player = "White"
-
     move = input(f"{player}'s move (row col) or 'stop': ")
-
     if move.lower() == "stop":
         print("Game ended")
         break
-
     parts = move.split()
     if len(parts) != 2:
         print("Please enter row and column numbers separated by a space.")
         continue
-    
     row = int(parts[0]) - 1
     col = int(parts[1]) - 1
-
     if row < 0 or row > 8 or col < 0 or col > 8:
         print("Coordinates out of range! Use numbers 1–9.")
         continue
-
     if board[row][col] != empty:
         print("That spot is already taken. Try again.")
         continue
 
     board[row][col] = stone
-    
     print_board()
-
     turn_black = not turn_black
+
 
