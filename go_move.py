@@ -67,12 +67,8 @@ while True:
         print("Please enter row and column numbers separated by a space.")
         continue
     
-    try:
-        row = int(parts[0]) - 1
-        col = int(parts[1]) - 1
-    except ValueError:
-        print("Invalid numbers. Try again.")
-        continue
+    row = int(parts[0]) - 1
+    col = int(parts[1]) - 1
 
     if row < 0 or row > 8 or col < 0 or col > 8:
         print("Coordinates out of range! Use numbers 1–9.")
@@ -87,3 +83,4 @@ while True:
     print_board()
 
     turn_black = not turn_black
+
