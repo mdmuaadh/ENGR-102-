@@ -34,7 +34,7 @@ char = input("Enter your preferred character: ") #takes user input of users pref
 if char == "":
     char = None
 else: 
-    #checks to see if the users preferred charater is in the valid characters
+    #checks to see if the users preferred character is in the valid characters
     while True:
         #if the character is not in the valid characters list it prompts user for a new input
         if char not in valid_chars:
@@ -80,7 +80,7 @@ if period:
 #defines the list of all of the lines that will be printed
 lines = ["", "", "", "", ""]
 
-#loops for each charater in the display
+#loops for each character in the display
 for i in display:
     art = digits[i] #finds the template for the character
     for j in range(5):
@@ -94,3 +94,4 @@ print()
 for line in lines:
 
     print(line)
+
