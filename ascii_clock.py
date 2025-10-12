@@ -28,13 +28,13 @@ digits = {
 time_input = input("Enter the time: ") #takes user input to find time
 clock_type = input("Choose the clock type (12 or 24): ") #takes user input to find format
 valid_chars = "abcdeghkmnopqrsuvwxyz@$&*=" #defines list of valid characters to print
-char = input("Enter your preferred character: ") #takes user input of users prefered character
+char = input("Enter your preferred character: ") #takes user input of users preferred character
 
 #checks to see if the user wants to use a specific character
 if char == "":
     char = None
 else: 
-    #checks to see if the users prefered charater is in the valid characters
+    #checks to see if the users preferred charater is in the valid characters
     while True:
         #if the character is not in the valid characters list it prompts user for a new input
         if char not in valid_chars:
@@ -92,4 +92,5 @@ for i in display:
 #prints all of the lines in the clock
 print()
 for line in lines:
+
     print(line)
