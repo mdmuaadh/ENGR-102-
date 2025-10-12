@@ -1,11 +1,15 @@
 # By submitting this assignment, I agree to the following:
-#   "Aggies do not lie, cheat, or steal, or tolerate those who do."
-#   "I have not given or received any unauthorized aid on this assignment."
+# "Aggies do not lie, cheat, or steal, or tolerate those who do"
+# "I have not given or received any unauthorized aid on this assignment"
 #
-# Name:         Xander Tivis
-# Section:      535
-# Assignment:   Lab #, Assignment #
-# Date:         
+# Names: 
+# Jacob Gil
+# Michael Mendoza
+# Muaadh Mohideen
+# Xander Tivis
+# Section: ENGR - 102 - 559
+# Assignment: Lab 8 Team project planner
+# Date: 12-10-2025        
 
 #defines the dictionary containing all of the characters that may be used
 digits = {
@@ -94,4 +98,5 @@ print()
 for line in lines:
 
     print(line)
+
 
